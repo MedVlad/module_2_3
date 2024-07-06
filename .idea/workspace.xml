@@ -23,9 +23,9 @@
   <component name="Git.Stage.Ui.Settings">
     <option name="ignoredFilesShown" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ipFob4rcEZ1jmeuvPPSglmO0to" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,7 +38,8 @@
   "keyToString": {
     "Python.module_2_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/vmvlad/PycharmProjects/module_2_2_/module_2_2.py"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -176,7 +177,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720191750666</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit 5">
+      <option name="closed" value="true" />
+      <created>1720202765447</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720202765447</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit 6">
+      <option name="closed" value="true" />
+      <created>1720202877854</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720202877854</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit 7">
+      <option name="closed" value="true" />
+      <created>1720237667388</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720237667388</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +232,9 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 3" />
     <MESSAGE value="commit 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 4" />
+    <MESSAGE value="commit 5" />
+    <MESSAGE value="commit 6" />
+    <MESSAGE value="commit 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 7" />
   </component>
 </project>
