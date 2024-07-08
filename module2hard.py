@@ -23,4 +23,4 @@ for number in range(3, 21):
                 end_pairs.append([pairs[i-1], pairs[j]])
             else:
                 continue
-    print(number, "  ", print_password(end_pairs))
+    print(number, "--", print_password(end_pairs))
