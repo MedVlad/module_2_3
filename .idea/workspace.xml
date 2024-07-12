@@ -58,7 +58,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module2hard">
+  <component name="RunManager" selected="Python.module_3_1">
     <configuration name="module2hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -149,10 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module_3_1" />
         <item itemvalue="Python.module2hard" />
         <item itemvalue="Python.module_3_2" />
         <item itemvalue="Python.proba" />
-        <item itemvalue="Python.module_3_1" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720775013234</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="module_3_2.py">
+      <option name="closed" value="true" />
+      <created>1720801449229</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720801449229</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
