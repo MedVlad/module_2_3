@@ -7,14 +7,12 @@ def count_calls():
 
 
 def string_info(string=""):
-    global calls
-    calls += 1
+    count_calls()
     return len(string), string.upper(), string.lower()
 
 
 def is_contains(string, list_to_search):
-    global calls
-    calls += 1
+    count_calls()
     for i in range(0, len(list_to_search)):
         list_to_search[i] = list_to_search[i].upper()
         string = string.upper()

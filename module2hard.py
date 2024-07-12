@@ -1,4 +1,4 @@
-def print_password(list_pairs=[]):
+def print_password(list_pairs):
     k = 0
     s = ""
     while k < len(list_pairs):
@@ -23,4 +23,5 @@ for number in range(3, 21):
                 end_pairs.append([pairs[i-1], pairs[j]])
             else:
                 continue
-    print(number, "--", print_password(end_pairs))
+    print(number, "  ", print_password(end_pairs))
+x = input()
