@@ -1,4 +1,3 @@
-
 def get_multiplied_digits(number):
     first = 0
     str_number = str(number)
