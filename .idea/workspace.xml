@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/module2hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,9 @@
     "Python.module_2_5.executor": "Run",
     "Python.module_3_1.executor": "Run",
     "Python.module_3_2.executor": "Run",
+    "Python.module_3_3.executor": "Debug",
+    "Python.module_3_4.executor": "Run",
+    "Python.module_3_5.executor": "Run",
     "Python.proba.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -58,7 +60,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_3_1">
+  <component name="RunManager" selected="Python.module_3_5">
     <configuration name="module2hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -103,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_3_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_3_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_3_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_3_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="proba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_3_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +140,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proba.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_3_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module_3_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_3_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,10 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module_3_5" />
+        <item itemvalue="Python.module_3_4" />
+        <item itemvalue="Python.module_3_3" />
         <item itemvalue="Python.module_3_1" />
         <item itemvalue="Python.module2hard" />
-        <item itemvalue="Python.module_3_2" />
-        <item itemvalue="Python.proba" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +405,63 @@
       <option name="project" value="LOCAL" />
       <updated>1720801449229</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="module_3_2.py">
+      <option name="closed" value="true" />
+      <created>1720801569856</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720801569856</updated>
+    </task>
+    <task id="LOCAL-00028" summary="module_3_2.py">
+      <option name="closed" value="true" />
+      <created>1720801685825</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720801685825</updated>
+    </task>
+    <task id="LOCAL-00029" summary="module_3_1.py">
+      <option name="closed" value="true" />
+      <created>1720801748072</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720801748072</updated>
+    </task>
+    <task id="LOCAL-00030" summary="module_3_1.py">
+      <option name="closed" value="true" />
+      <created>1720801860039</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720801860039</updated>
+    </task>
+    <task id="LOCAL-00031" summary="module_3_3.py">
+      <option name="closed" value="true" />
+      <created>1720849740131</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1720849740131</updated>
+    </task>
+    <task id="LOCAL-00032" summary="module_3_3.py">
+      <option name="closed" value="true" />
+      <created>1720849803288</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1720849803288</updated>
+    </task>
+    <task id="LOCAL-00033" summary="module_3_4">
+      <option name="closed" value="true" />
+      <created>1721118155296</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721118155296</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,8 +500,31 @@
     <MESSAGE value="Break" />
     <MESSAGE value="module_2_5" />
     <MESSAGE value=" zero" />
-    <MESSAGE value="module_3_1.py" />
     <MESSAGE value="module_3_2.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_3_2.py" />
+    <MESSAGE value="module_3_1.py" />
+    <MESSAGE value="module_3_3.py" />
+    <MESSAGE value="module_3_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_3_4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_3_5.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_3_5.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_3_5.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
