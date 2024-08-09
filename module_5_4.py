@@ -100,7 +100,7 @@ class House:
             return self
 
     def go_to(self, new_floor):
-        if new_floor in range(1, self.number_of_floors + 1):
+        if new_floor <= self.number_of_floors:
             for floor in range(1, new_floor + 1):
                 print(floor)
         else:
