@@ -21,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="Git.Stage.Ui.Settings">
     <option name="ignoredFilesShown" value="true" />
@@ -565,7 +566,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723806154773</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="module_5hard">
+      <option name="closed" value="true" />
+      <created>1723806208392</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1723806208392</updated>
+    </task>
+    <task id="LOCAL-00047" summary="module_5hard">
+      <option name="closed" value="true" />
+      <created>1723806324719</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1723806324719</updated>
+    </task>
+    <task id="LOCAL-00048" summary="module_5hard">
+      <option name="closed" value="true" />
+      <created>1723806352069</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723806352069</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +652,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/module5hard.py</url>
-          <line>114</line>
+          <line>115</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
