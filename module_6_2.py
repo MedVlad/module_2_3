@@ -37,7 +37,7 @@ class Sedan(Vehicle):
         Vehicle._color = color
 
 
-vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
+vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500 )
 vehicle1.print_info()
 
 vehicle1.set_color('Pink')
