@@ -214,38 +214,6 @@
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
     </task>
-    <task id="LOCAL-00013" summary="commit 4">
-      <option name="closed" value="true" />
-      <created>1720191570528</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1720191570528</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit 4">
-      <option name="closed" value="true" />
-      <created>1720191750666</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1720191750666</updated>
-    </task>
-    <task id="LOCAL-00015" summary="commit 5">
-      <option name="closed" value="true" />
-      <created>1720202765447</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1720202765447</updated>
-    </task>
-    <task id="LOCAL-00016" summary="commit 6">
-      <option name="closed" value="true" />
-      <created>1720202877854</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1720202877854</updated>
-    </task>
     <task id="LOCAL-00017" summary="commit 7">
       <option name="closed" value="true" />
       <created>1720237667388</created>
@@ -606,7 +574,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724519575689</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724525707923</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1724525707923</updated>
+    </task>
+    <task id="LOCAL-00063" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724525744345</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1724525744345</updated>
+    </task>
+    <task id="LOCAL-00064" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724525921088</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1724525921088</updated>
+    </task>
+    <task id="LOCAL-00065" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724526035606</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1724526035606</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -633,7 +633,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit 6" />
     <MESSAGE value="commit 7" />
     <MESSAGE value="commit 8" />
     <MESSAGE value="commit 9" />
@@ -658,7 +657,8 @@
     <MESSAGE value="module_6_3_super" />
     <MESSAGE value="module6hard" />
     <MESSAGE value="module_7_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_7_1" />
+    <MESSAGE value="module_7_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_7_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
