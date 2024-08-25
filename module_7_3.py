@@ -35,7 +35,6 @@ class WordsFinder:
             count_word[name] = counter
         return count_word
 
-
 finder2 = WordsFinder('test_file.txt')
 print(finder2.get_all_words())
 print(finder2.find('TEXT'))
