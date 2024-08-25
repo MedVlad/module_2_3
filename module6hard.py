@@ -103,7 +103,7 @@ class Cube(Figure):
     def set_sides(self, *new_sides):
         if len(new_sides) == 1:
             s = new_sides * self.sides_count
-            self.set_sides(*s)
+            super().set_sides(*s)
 
     def get_volume(self):
         s = self.get_sides()

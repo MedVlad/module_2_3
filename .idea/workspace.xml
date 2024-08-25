@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module6hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/module6hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_7_2">
+  <component name="RunManager" selected="Python.module6hard">
     <configuration name="module6hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -190,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module6hard" />
         <item itemvalue="Python.module_7_2" />
         <item itemvalue="Python.module_7_1" />
-        <item itemvalue="Python.module6hard" />
         <item itemvalue="Python.module_6_1" />
         <item itemvalue="Python.module_6_3" />
       </list>
@@ -213,22 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00017" summary="commit 7">
-      <option name="closed" value="true" />
-      <created>1720237667388</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1720237667388</updated>
-    </task>
-    <task id="LOCAL-00018" summary="commit 8">
-      <option name="closed" value="true" />
-      <created>1720237733124</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1720237733124</updated>
     </task>
     <task id="LOCAL-00019" summary="commit 9">
       <option name="closed" value="true" />
@@ -606,7 +589,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724526035606</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724526085122</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1724526085122</updated>
+    </task>
+    <task id="LOCAL-00067" summary="module_7_2">
+      <option name="closed" value="true" />
+      <created>1724526108771</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1724526108771</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,6 +670,11 @@
           <url>file://$PROJECT_DIR$/module5hard.py</url>
           <line>115</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module6hard.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
