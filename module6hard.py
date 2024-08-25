@@ -123,7 +123,7 @@ print(cube1.get_color())
 # Проверка на изменение сторон:
 cube1.set_sides(5, 3, 12, 4, 5)  # Не изменится
 print(cube1.get_sides())
-cube1.set_sides(5)  # Изменится
+cube1.set_sides(10)  # Изменится
 print(cube1.get_sides())
 cube1.set_sides(6)  # Возвращаем значение при создании 6
 circle1.set_sides(15)  # Изменится

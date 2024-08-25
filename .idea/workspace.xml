@@ -213,22 +213,6 @@
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
     </task>
-    <task id="LOCAL-00019" summary="commit 9">
-      <option name="closed" value="true" />
-      <created>1720242452268</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1720242452268</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Break">
-      <option name="closed" value="true" />
-      <created>1720244042796</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1720244042796</updated>
-    </task>
     <task id="LOCAL-00021" summary="module_2_5">
       <option name="closed" value="true" />
       <created>1720326466547</created>
@@ -605,7 +589,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724526108771</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="module6hard">
+      <option name="closed" value="true" />
+      <created>1724580712224</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1724580712225</updated>
+    </task>
+    <task id="LOCAL-00069" summary="module6hard">
+      <option name="closed" value="true" />
+      <created>1724581111108</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1724581111108</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -654,10 +654,10 @@
     <MESSAGE value="module_6_2" />
     <MESSAGE value="module_6_3" />
     <MESSAGE value="module_6_3_super" />
-    <MESSAGE value="module6hard" />
     <MESSAGE value="module_7_1" />
     <MESSAGE value="module_7_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_7_2" />
+    <MESSAGE value="module6hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="module6hard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,11 +670,6 @@
           <url>file://$PROJECT_DIR$/module5hard.py</url>
           <line>115</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module6hard.py</url>
-          <line>124</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
