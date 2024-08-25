@@ -63,6 +63,7 @@
     "Python.module_7_1.executor": "Run",
     "Python.module_7_2.executor": "Run",
     "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
     "Python.proba.executor": "Run",
     "Python.proba_module.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,7 +78,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_7_3">
+  <component name="RunManager" selected="Python.module_7_4">
     <configuration name="module6hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -92,28 +93,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module6hard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="module_6_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_6_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,13 +167,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="module_7_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_7_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module_7_4" />
         <item itemvalue="Python.module_7_3" />
         <item itemvalue="Python.module6hard" />
         <item itemvalue="Python.module_7_2" />
         <item itemvalue="Python.module_7_1" />
-        <item itemvalue="Python.module_6_1" />
       </list>
     </recent_temporary>
   </component>
@@ -213,22 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00026" summary="module_3_2.py">
-      <option name="closed" value="true" />
-      <created>1720801449229</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720801449229</updated>
-    </task>
-    <task id="LOCAL-00027" summary="module_3_2.py">
-      <option name="closed" value="true" />
-      <created>1720801569856</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1720801569856</updated>
     </task>
     <task id="LOCAL-00028" summary="module_3_2.py">
       <option name="closed" value="true" />
@@ -606,7 +591,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724588631965</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="module_7_3">
+      <option name="closed" value="true" />
+      <created>1724588829679</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1724588829679</updated>
+    </task>
+    <task id="LOCAL-00076" summary="module_7_4">
+      <option name="closed" value="true" />
+      <created>1724588839335</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1724588839335</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -633,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit 8" />
     <MESSAGE value="commit 9" />
     <MESSAGE value="Break" />
     <MESSAGE value="module_2_5" />
@@ -658,7 +658,8 @@
     <MESSAGE value="module_7_2" />
     <MESSAGE value="module6hard" />
     <MESSAGE value="module_7_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_7_3" />
+    <MESSAGE value="module_7_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_7_4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
