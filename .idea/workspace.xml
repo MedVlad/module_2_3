@@ -214,22 +214,6 @@
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
     </task>
-    <task id="LOCAL-00023" summary="module_3_1.py">
-      <option name="closed" value="true" />
-      <created>1720590396451</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1720590396451</updated>
-    </task>
-    <task id="LOCAL-00024" summary="module_3_2.py">
-      <option name="closed" value="true" />
-      <created>1720774940284</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1720774940284</updated>
-    </task>
     <task id="LOCAL-00025" summary="module_3_2.py">
       <option name="closed" value="true" />
       <created>1720775013234</created>
@@ -606,7 +590,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724581964917</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="module_7_3">
+      <option name="closed" value="true" />
+      <created>1724586947951</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1724586947951</updated>
+    </task>
+    <task id="LOCAL-00073" summary="module_7_3">
+      <option name="closed" value="true" />
+      <created>1724587041599</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1724587041599</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,11 +671,6 @@
           <url>file://$PROJECT_DIR$/module5hard.py</url>
           <line>115</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_7_3.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
