@@ -1,3 +1,6 @@
+
+from struct import calcsize
+
 team1_num = 5
 team2_num = 6
 score_1 = 40
@@ -17,3 +20,4 @@ print("Волшебники данных решили задачи за {}с !".
 print(f"Команды решили {score_1} и {score_2} задач.")
 print(f'{challenge_result}')
 print(f"Сегодня было решено {tasks_total} задач, в среднем по {time_avg} секунды на задачу!.")
+print(calcsize("P") * 8)
