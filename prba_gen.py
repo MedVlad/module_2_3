@@ -1,14 +1,40 @@
-import time
-start_time = time.time_ns()
-numbers = [1,2,3,4,5,6,7,8,]
-result = (x**3000 for x in numbers)
+import threading
 
-for elem in result:
-    print(elem)
 
-#y = map(lambda y:y * 2, [1,2,3,4,5,6])
-print('еще разик')
-for elem in result:
-    print(elem)
-y = result
-print(y)
+class Counter:
+    def __init__(self):
+        self.val = 0
+        self.lock = threading.Lock()
+
+    def change(self):
+        with self.lock:
+            self.val += 1
+
+
+def work(counter, operationsCount):
+    for _ in range(operationsCount):
+        counter.change()
+
+
+def run_threads(counter, threadsCount, operationsPerThreadCount):
+    threads = []
+
+    for _ in range(threadsCount):
+        t = threading.Thread(target=work, args=(counter, operationsPerThreadCount))
+
+        t.start()
+        threads.append(t)
+
+    for t in threads:
+        t.join()
+
+
+if __name__ == "__main__":
+    threadsCount = 100
+    operationsPerThreadCount = 1000000
+    expectedCounterValue = threadsCount * operationsPerThreadCount
+    counters = [Counter()]
+
+    for counter in counters:
+        run_threads(counter, threadsCount, operationsPerThreadCount)
+        print(f"{counter.__class__.__name__}: expected val: {expectedCounterValue},actual val: {counter.val}")
