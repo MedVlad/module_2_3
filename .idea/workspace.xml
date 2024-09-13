@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="mopdule_9_2">
-      <change afterPath="$PROJECT_DIR$/module_9_4.py" afterDir="false" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="mopdule_9_4">
+      <change afterPath="$PROJECT_DIR$/module_9_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_9_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_9_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prba_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/prba_gen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
     "Python.module_9_2.executor": "Debug",
     "Python.module_9_3.executor": "Run",
     "Python.module_9_4.executor": "Run",
+    "Python.module_9_5.executor": "Run",
     "Python.prba_gen.executor": "Run",
     "Python.proba.executor": "Run",
     "Python.proba_module.executor": "Run",
@@ -97,29 +96,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_9_4">
-    <configuration name="module_9_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_9_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.module_9_5">
     <configuration name="module_9_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -186,6 +163,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="module_9_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_9_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prba_gen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -210,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module_9_5" />
         <item itemvalue="Python.module_9_4" />
         <item itemvalue="Python.module_9_2" />
         <item itemvalue="Python.prba_gen" />
         <item itemvalue="Python.module_9_3" />
-        <item itemvalue="Python.module_9_1" />
       </list>
     </recent_temporary>
   </component>
@@ -233,14 +232,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00040" summary="module_5_3">
-      <option name="closed" value="true" />
-      <created>1722859641718</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1722859641718</updated>
     </task>
     <task id="LOCAL-00041" summary="module_5_4">
       <option name="closed" value="true" />
@@ -626,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725615205519</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="mopdule_9_4">
+      <option name="closed" value="true" />
+      <created>1726061615693</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1726061615694</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -653,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_3_3.py" />
     <MESSAGE value="module_3_4" />
     <MESSAGE value="module_3_5" />
     <MESSAGE value="module3hard" />
@@ -678,7 +676,8 @@
     <MESSAGE value="mopdule_8_3" />
     <MESSAGE value="mopdule_9_1" />
     <MESSAGE value="mopdule_9_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mopdule_9_2" />
+    <MESSAGE value="mopdule_9_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="mopdule_9_4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
