@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_9_7">
-      <change afterPath="$PROJECT_DIR$/module_10_1.py" afterDir="false" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_10_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +236,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00044" summary="module_5_4_resend">
-      <option name="closed" value="true" />
-      <created>1723189837238</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1723189837238</updated>
     </task>
     <task id="LOCAL-00045" summary="module_5hard">
       <option name="closed" value="true" />
@@ -629,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726294388683</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="module_10_1">
+      <option name="closed" value="true" />
+      <created>1726299195004</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1726299195004</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -656,7 +656,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_5_1" />
     <MESSAGE value="module_5_2" />
     <MESSAGE value="module_5_3" />
     <MESSAGE value="module_5_4" />
@@ -681,7 +680,8 @@
     <MESSAGE value="mopdule_9_5" />
     <MESSAGE value="mopdule_9_6" />
     <MESSAGE value="module_9_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_9_7" />
+    <MESSAGE value="module_10_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_10_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

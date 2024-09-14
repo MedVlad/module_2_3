@@ -10,7 +10,6 @@ def write_words(word_count, file_name):
             sleep(0.1)
     print(f"Завершилась запись в файл {file_name}")
 
-
 time_start = datetime.now()
 write_words(10, 'example1.txt')
 write_words(30, 'example2.txt')
@@ -21,10 +20,10 @@ time_res = time_stop - time_start
 print(f"Работа функций:{time_res} секунд")
 
 time_start = datetime.now()
-thr_1 = Thread(target=write_words(word_count=10, file_name='example5.txt'))
-thr_2 = Thread(target=write_words(word_count=30, file_name='example6.txt'))
-thr_3 = Thread(target=write_words(word_count=200, file_name='example7.txt'))
-thr_4 = Thread(target=write_words(word_count=100, file_name='example8.txt'))
+thr_1 = Thread(target=write_words,args=(10,'example5.txt'))
+thr_2 = Thread(target=write_words,args=(30,'example5.txt'))
+thr_3 = Thread(target=write_words,args=(200,'example5.txt'))
+thr_4 = Thread(target=write_words,args=(100,'example5.txt'))
 
 thr_1.start()
 thr_2.start()
