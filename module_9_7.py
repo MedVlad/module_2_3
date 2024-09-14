@@ -1,7 +1,7 @@
 def is_prime(func):
-    def wrapper(a, b, c):
+    def wrapper(*args, **kwargs):
         prime = 0
-        num = func(a, b, c)
+        num = func(*args,**kwargs)
         if num <= 1:
             print('Составное')
             return num
