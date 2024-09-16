@@ -19,11 +19,12 @@ time_stop = datetime.now()
 time_res = time_stop - time_start
 print(f"Работа функций:{time_res} секунд")
 
+
 time_start = datetime.now()
 thr_1 = Thread(target=write_words,args=(10,'example5.txt'))
-thr_2 = Thread(target=write_words,args=(30,'example5.txt'))
-thr_3 = Thread(target=write_words,args=(200,'example5.txt'))
-thr_4 = Thread(target=write_words,args=(100,'example5.txt'))
+thr_2 = Thread(target=write_words,args=(30,'example6.txt'))
+thr_3 = Thread(target=write_words,args=(200,'example7.txt'))
+thr_4 = Thread(target=write_words,args=(100,'example8.txt'))
 
 thr_1.start()
 thr_2.start()

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_10_1">
-      <change afterPath="$PROJECT_DIR$/first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_10_2.py" afterDir="false" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_10_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     "Python.module3hard.executor": "Run",
     "Python.module5hard.executor": "Run",
     "Python.module6hard.executor": "Run",
-    "Python.module_10_1.executor": "Debug",
+    "Python.module_10_1.executor": "Run",
     "Python.module_10_2.executor": "Run",
     "Python.module_2_3.executor": "Run",
     "Python.module_2_4.executor": "Run",
@@ -103,7 +102,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.module_10_2">
+  <component name="RunManager" selected="Python.module_10_1">
     <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -216,9 +215,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.module_10_1" />
         <item itemvalue="Python.module_10_2" />
         <item itemvalue="Python.first" />
-        <item itemvalue="Python.module_10_1" />
         <item itemvalue="Python.module_9_7" />
         <item itemvalue="Python.module_9_6" />
       </list>
@@ -239,22 +238,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00046" summary="module_5hard">
-      <option name="closed" value="true" />
-      <created>1723806208392</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1723806208392</updated>
-    </task>
-    <task id="LOCAL-00047" summary="module_5hard">
-      <option name="closed" value="true" />
-      <created>1723806324719</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1723806324719</updated>
     </task>
     <task id="LOCAL-00048" summary="module_5hard">
       <option name="closed" value="true" />
@@ -632,7 +615,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726300093090</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="module_10_1">
+      <option name="closed" value="true" />
+      <created>1726380737848</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1726380737848</updated>
+    </task>
+    <task id="LOCAL-00096" summary="module_10_2">
+      <option name="closed" value="true" />
+      <created>1726380767313</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1726380767313</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -659,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_5_2" />
     <MESSAGE value="module_5_3" />
     <MESSAGE value="module_5_4" />
     <MESSAGE value="module_5_4_resend" />
@@ -684,7 +682,8 @@
     <MESSAGE value="mopdule_9_6" />
     <MESSAGE value="module_9_7" />
     <MESSAGE value="module_10_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_10_1" />
+    <MESSAGE value="module_10_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_10_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
