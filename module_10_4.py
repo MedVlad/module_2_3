@@ -26,7 +26,7 @@ class Cafe():
         self.queue = Queue()
         self.guests = []
 
-    def is_table_busy(self): #хотяб 1 стол занят
+    def is_table_busy(self):  # хотяб 1 стол занят
         result = False
         for i in self.table:
             if not i.guest is None:
@@ -47,19 +47,18 @@ class Cafe():
                 print(f"{g.name} в очереди")
 
     def discuss_guests(self):
-    # орбслуживаем пока есть очередь или кто то за столом
-       while not self.queue.empty() or self.is_table_busy():
-        for t in self.table:
-            if not t.guest is None:
-                if not t.guest.is_alive():
-                    print(f"{t.guest.name} покушал(-а) и ушёл(ушла)")
-                    t.guest = None
-                    print(f"Стол номер {t.number} свободен")
-                    if not self.queue.empty():
-                        t.guest = self.queue.get()
-                        print(f"{t.guest.name} вышел(-ла) из очереди и сел(-а) за стол номер {t.number}")
-                        t.guest.start()
-
+        # орбслуживаем пока есть очередь или кто то за столом
+        while not self.queue.empty() or self.is_table_busy():
+            for t in self.table:
+                if not t.guest is None:
+                    if not t.guest.is_alive():
+                        print(f"{t.guest.name} покушал(-а) и ушёл(ушла)")
+                        t.guest = None
+                        print(f"Стол номер {t.number} свободен")
+                        if not self.queue.empty():
+                            t.guest = self.queue.get()
+                            print(f"{t.guest.name} вышел(-ла) из очереди и сел(-а) за стол номер {t.number}")
+                            t.guest.start()
 
 
 tables = [Table(number) for number in range(1, 6)]
