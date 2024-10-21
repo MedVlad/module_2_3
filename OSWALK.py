@@ -2,7 +2,7 @@ import os
 import time
 import pathlib
 
-currentDirectory = pathlib.Path('.')
+currentDirectory = pathlib.Path('c:\\')
 for file in currentDirectory.iterdir():
         s = os.path.supports_unicode_filenames
         filepath = os.path.join(currentDirectory, os.path.abspath(file))

@@ -12,11 +12,11 @@ if __name__ == '__main__':
 
     start = datetime.now()
     filenames = [f'./Files/file {number}.txt' for number in range(1, 5)]
-    with multiprocessing.Pool(processes=5) as pool:
-        pool.map(read_info,filenames )
+    with multiprocessing.Pool(processes=2) as pool:
+       pool.map(read_info,filenames )
 
-  #  for i in filenames:
-  #      read_info(i)
+   # for i in filenames:
+   #     read_info(i)
 
 
     end = datetime.now()

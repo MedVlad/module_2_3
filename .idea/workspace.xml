@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_10_5">
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_9_6">
+      <change afterPath="$PROJECT_DIR$/STL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_11_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proba_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_9_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_9_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSWALK.py" beforeDir="false" afterPath="$PROJECT_DIR$/OSWALK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_10_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.MultiProcessing.executor&quot;: &quot;Debug&quot;,
     &quot;Python.OSWALK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.STL.executor&quot;: &quot;Run&quot;,
     &quot;Python.chatter.executor&quot;: &quot;Run&quot;,
     &quot;Python.first.executor&quot;: &quot;Run&quot;,
     &quot;Python.generator.executor&quot;: &quot;Run&quot;,
@@ -56,6 +62,8 @@
     &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_11_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_2_5.executor&quot;: &quot;Run&quot;,
@@ -84,10 +92,11 @@
     &quot;Python.module_9_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_9_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_9_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_9_6.executor&quot;: &quot;Debug&quot;,
     &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
     &quot;Python.prba_gen.executor&quot;: &quot;Run&quot;,
     &quot;Python.proba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proba_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.proba_module.executor&quot;: &quot;Run&quot;,
     &quot;Python.qt5_new.executor&quot;: &quot;Run&quot;,
     &quot;Python.ьщвгду_8_2.executor&quot;: &quot;Run&quot;,
@@ -105,8 +114,16 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.module_9_6">
-    <configuration name="module_10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="module_2_3" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="module_2_3" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.module_11_1">
+    <configuration name="OSWALK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_10_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OSWALK.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_10_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="STL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +158,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_10_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_10_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_10_5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,7 +180,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_10_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_10_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_10_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_11_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\vmvlad\PycharmProjects\module_2_3\module_10_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_11_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="module_9_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="proba_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +224,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_9_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proba_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module_9_6" />
-        <item itemvalue="Python.module_10_5" />
-        <item itemvalue="Python.module_10_4" />
-        <item itemvalue="Python.module_10_3" />
-        <item itemvalue="Python.module_10_1" />
+        <item itemvalue="Python.module_11_1" />
+        <item itemvalue="Python.proba_2" />
+        <item itemvalue="Python.STL" />
+        <item itemvalue="Python.module_10_5 (1)" />
+        <item itemvalue="Python.OSWALK" />
       </list>
     </recent_temporary>
   </component>
@@ -241,14 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00052" summary="module_6_2">
-      <option name="closed" value="true" />
-      <created>1724006336988</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1724006336988</updated>
     </task>
     <task id="LOCAL-00053" summary="module_6_2">
       <option name="closed" value="true" />
@@ -634,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726905477957</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="module_9_6">
+      <option name="closed" value="true" />
+      <created>1727003729106</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1727003729106</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -661,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_5hard" />
     <MESSAGE value="module_6_1" />
     <MESSAGE value="module_6_2" />
     <MESSAGE value="module_6_3" />
@@ -686,7 +702,8 @@
     <MESSAGE value="module_10_3" />
     <MESSAGE value="module_10_4" />
     <MESSAGE value="module_10_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_10_5" />
+    <MESSAGE value="module_9_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_9_6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,6 +731,11 @@
           <url>file://$PROJECT_DIR$/module_9_7.py</url>
           <line>8</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_11_1.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
