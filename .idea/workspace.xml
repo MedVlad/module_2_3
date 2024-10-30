@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_9_6">
-      <change afterPath="$PROJECT_DIR$/STL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_11_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proba_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/limon_2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSWALK.py" beforeDir="false" afterPath="$PROJECT_DIR$/OSWALK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_10_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_11_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_11_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -731,11 +727,6 @@
           <url>file://$PROJECT_DIR$/module_9_7.py</url>
           <line>8</line>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_11_1.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -1,31 +1,18 @@
-#from PIL import Image
-#from bs4 import BeautifulSoup
-#from html.parser import HTMLParser
-import re
-from urllib.request import urlopen
-import urllib.request
+import pandas as pd
+import matplotlib.pyplot as plt
 
-from urllib3 import request
+limons = pd.read_csv("limon_2.csv")
+df = pd.DataFrame(limons)
+df = df.sort_values("Время расчета", ascending=True)
+df["Медиана"] = df["Средний Хешрейт В День"].median()
+df1 = df.describe().round(2)
+plt.xlabel('Время расчета')  # Подпись для оси х
+plt.ylabel('Хэшрейт')  # Подпись для оси y
+plt.title('График среднесуточного хэшрейта')  # Название
+plt.plot(df["Время расчета"], df["Средний Хешрейт В День"], df["Медиана"])
 
-sf = 'img src="'
-url = "https://.ru"
-U = urlopen(url)
-im_list = []
-for s in U:
-    s = str(s)
-    i = s.find(sf)
-    if i > -1:
-        for line in s.split('\n'):
-            im_list.append(''.join(re.findall(r'"[^\"]+[https]"', line)))
-            url = ''.join(re.findall(r'"[^\"]+[https]"', line))
-            print(url)
-            img = urllib.request.urlopen(url).read()
-           # out = open("img.jpg", "wb")
-           # out.write(img)
-           # out.close
-print(im_list)
-
-
-
-#parser.feed(U)
-#print(print(U.read()))
+plt.show()
+print(df.to_string())
+print()
+print("Статистические параметры входных данных:")
+print(df1.to_string())
