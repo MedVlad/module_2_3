@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="module_11_1">
-      <change afterPath="$PROJECT_DIR$/introspection.py" afterDir="false" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="introspection">
+      <change afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests_12_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,78 +43,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.MultiProcessing.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.OSWALK.executor&quot;: &quot;Run&quot;,
-    &quot;Python.STL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chatter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.introspection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module2hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module3hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module5hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module6hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_10_5 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_11_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_2_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.module_3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_3_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_6_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_7_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_8_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.module_9_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_9_6.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.module_9_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prba_gen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.proba_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.qt5_new.executor&quot;: &quot;Run&quot;,
-    &quot;Python.resp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ьщвгду_8_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vmvlad/PycharmProjects/module_2_3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests in tests_12_1.py.executor": "Debug",
+    "Python.MultiProcessing.executor": "Debug",
+    "Python.OSWALK.executor": "Run",
+    "Python.STL.executor": "Run",
+    "Python.chatter.executor": "Run",
+    "Python.first.executor": "Run",
+    "Python.generator.executor": "Run",
+    "Python.introspection.executor": "Run",
+    "Python.module2hard.executor": "Run",
+    "Python.module3hard.executor": "Run",
+    "Python.module5hard.executor": "Run",
+    "Python.module6hard.executor": "Run",
+    "Python.module_10_1.executor": "Run",
+    "Python.module_10_2.executor": "Run",
+    "Python.module_10_3.executor": "Run",
+    "Python.module_10_4.executor": "Run",
+    "Python.module_10_5 (1).executor": "Run",
+    "Python.module_11_1.executor": "Run",
+    "Python.module_2_3.executor": "Run",
+    "Python.module_2_4.executor": "Run",
+    "Python.module_2_5.executor": "Run",
+    "Python.module_3_1.executor": "Run",
+    "Python.module_3_2.executor": "Run",
+    "Python.module_3_3.executor": "Debug",
+    "Python.module_3_4.executor": "Run",
+    "Python.module_3_5.executor": "Run",
+    "Python.module_3_6.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_6_1.executor": "Run",
+    "Python.module_6_2.executor": "Run",
+    "Python.module_6_3.executor": "Run",
+    "Python.module_7_1.executor": "Run",
+    "Python.module_7_2.executor": "Run",
+    "Python.module_7_3.executor": "Run",
+    "Python.module_7_4.executor": "Run",
+    "Python.module_8_1.executor": "Run",
+    "Python.module_8_2 (1).executor": "Run",
+    "Python.module_8_3.executor": "Run",
+    "Python.module_9_1.executor": "Run",
+    "Python.module_9_2.executor": "Debug",
+    "Python.module_9_3.executor": "Run",
+    "Python.module_9_4.executor": "Run",
+    "Python.module_9_5.executor": "Run",
+    "Python.module_9_6.executor": "Debug",
+    "Python.module_9_7.executor": "Run",
+    "Python.prba_gen.executor": "Run",
+    "Python.proba.executor": "Run",
+    "Python.proba_2.executor": "Run",
+    "Python.proba_module.executor": "Run",
+    "Python.qt5_new.executor": "Run",
+    "Python.resp.executor": "Run",
+    "Python.ьщвгду_8_2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/vmvlad/PycharmProjects/module_2_3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="module_2_3" is-module-sdk="true">
@@ -122,7 +124,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.introspection">
+  <component name="RunManager" selected="Python tests.Python tests in tests_12_1.py">
     <configuration name="introspection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -189,28 +191,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="proba_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proba_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="resp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -233,13 +213,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in tests_12_1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_12_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in tests_12_1.py" />
         <item itemvalue="Python.introspection" />
         <item itemvalue="Python.module_5_1" />
         <item itemvalue="Python.resp" />
         <item itemvalue="Python.module_11_1" />
-        <item itemvalue="Python.proba_2" />
       </list>
     </recent_temporary>
   </component>
@@ -258,14 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00054" summary="module_6_3">
-      <option name="closed" value="true" />
-      <created>1724066850668</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1724066850669</updated>
     </task>
     <task id="LOCAL-00055" summary="module_6_3">
       <option name="closed" value="true" />
@@ -651,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730278126059</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="introspection">
+      <option name="closed" value="true" />
+      <created>1730535152686</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1730535152686</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -678,7 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_6_2" />
     <MESSAGE value="module_6_3" />
     <MESSAGE value="module_6_3_super" />
     <MESSAGE value="module_7_1" />
@@ -703,7 +697,8 @@
     <MESSAGE value="module_10_5" />
     <MESSAGE value="module_9_6" />
     <MESSAGE value="module_11_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_11_1" />
+    <MESSAGE value="introspection" />
+    <option name="LAST_COMMIT_MESSAGE" value="introspection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
