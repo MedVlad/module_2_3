@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="TournamentTest" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="TournamentTest">
+      <change afterPath="$PROJECT_DIR$/suite_12_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests_12_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_12_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_12_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_12_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_12_2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +51,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests in TournamentTest.py.executor": "Run",
     "Python tests.Python tests in tests_12_1.py.executor": "Debug",
+    "Python tests.Python tests in tests_12_2.py.executor": "Debug",
     "Python.MultiProcessing.executor": "Debug",
     "Python.OSWALK.executor": "Run",
     "Python.STL.executor": "Run",
@@ -98,6 +105,8 @@
     "Python.proba_module.executor": "Run",
     "Python.qt5_new.executor": "Run",
     "Python.resp.executor": "Run",
+    "Python.suite_12_3.executor": "Run",
+    "Python.tests_12_3.executor": "Run",
     "Python.ьщвгду_8_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -121,7 +130,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.tests_12_3">
     <configuration name="introspection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -166,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tests_12_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_12_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,10 +230,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in tests_12_2.py" />
+        <item itemvalue="Python.tests_12_3" />
         <item itemvalue="Python tests.Python tests in tests_12_1.py" />
         <item itemvalue="Python.introspection" />
         <item itemvalue="Python.module_5_1" />
-        <item itemvalue="Python.resp" />
       </list>
     </recent_temporary>
   </component>
@@ -243,30 +252,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00057" summary="module6hard">
-      <option name="closed" value="true" />
-      <created>1724158036557</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1724158036557</updated>
-    </task>
-    <task id="LOCAL-00058" summary="module6hard">
-      <option name="closed" value="true" />
-      <created>1724300340058</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1724300340059</updated>
-    </task>
-    <task id="LOCAL-00059" summary="module6hard">
-      <option name="closed" value="true" />
-      <created>1724482227310</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1724482227310</updated>
     </task>
     <task id="LOCAL-00060" summary="module_7_1">
       <option name="closed" value="true" />
@@ -636,7 +621,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730641825156</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="TournamentTest">
+      <option name="closed" value="true" />
+      <created>1730641973709</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1730641973709</updated>
+    </task>
+    <task id="LOCAL-00107" summary="TournamentTest">
+      <option name="closed" value="true" />
+      <created>1730642006574</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1730642006574</updated>
+    </task>
+    <task id="LOCAL-00108" summary="TournamentTest">
+      <option name="closed" value="true" />
+      <created>1730642167184</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1730642167184</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
