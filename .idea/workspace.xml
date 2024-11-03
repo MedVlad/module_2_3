@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="tests_12_1">
-      <change afterPath="$PROJECT_DIR$/TournamentTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runner_and_tournament.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="TournamentTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +43,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
-    "Python tests.Python tests in TournamentTest.py.executor": "Debug",
+    "Python tests.Python tests in TournamentTest.py.executor": "Run",
     "Python tests.Python tests in tests_12_1.py.executor": "Debug",
     "Python.MultiProcessing.executor": "Debug",
     "Python.OSWALK.executor": "Run",
@@ -125,7 +121,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in TournamentTest.py">
+  <component name="RunManager">
     <configuration name="introspection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -192,21 +188,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in TournamentTest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TournamentTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in tests_12_1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -222,9 +203,24 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in tests_12_2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_12_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in TournamentTest.py" />
+        <item itemvalue="Python tests.Python tests in tests_12_2.py" />
         <item itemvalue="Python tests.Python tests in tests_12_1.py" />
         <item itemvalue="Python.introspection" />
         <item itemvalue="Python.module_5_1" />
@@ -247,14 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00056" summary="module_6_3_super">
-      <option name="closed" value="true" />
-      <created>1724140479729</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1724140479729</updated>
     </task>
     <task id="LOCAL-00057" summary="module6hard">
       <option name="closed" value="true" />
@@ -640,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730574465543</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="TournamentTest">
+      <option name="closed" value="true" />
+      <created>1730641825156</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1730641825156</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -667,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_6_3_super" />
     <MESSAGE value="module_7_1" />
     <MESSAGE value="module_7_2" />
     <MESSAGE value="module6hard" />
@@ -692,7 +687,8 @@
     <MESSAGE value="module_11_1" />
     <MESSAGE value="introspection" />
     <MESSAGE value="tests_12_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests_12_1" />
+    <MESSAGE value="TournamentTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="TournamentTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,11 +716,6 @@
           <url>file://$PROJECT_DIR$/module_9_7.py</url>
           <line>8</line>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/runner_and_tournament.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
