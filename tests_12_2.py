@@ -39,5 +39,6 @@ class TournamentTest(TestCase):
             print(f"{key}: {value}")
 
 
+
 if __name__ == "__main__":
     unittest.main()
