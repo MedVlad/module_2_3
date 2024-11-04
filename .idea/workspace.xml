@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="TournamentTest">
-      <change afterPath="$PROJECT_DIR$/suite_12_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_12_3.py" afterDir="false" />
+    <list default="true" id="e0c3e428-aaea-466e-9473-a86235ea224b" name="Changes" comment="test_Suite_skip">
+      <change afterPath="$PROJECT_DIR$/rt_with_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests_12_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_12_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_12_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_12_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_12_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests for tests_12_4.RunnerTest.test_walk.executor": "Run",
+    "Python tests.Python tests for tests_12_4.TournamentTest.executor": "Run",
     "Python tests.Python tests in TournamentTest.py.executor": "Run",
     "Python tests.Python tests in tests_12_1.py.executor": "Debug",
     "Python tests.Python tests in tests_12_2.py.executor": "Debug",
@@ -107,6 +107,7 @@
     "Python.resp.executor": "Run",
     "Python.suite_12_3.executor": "Run",
     "Python.tests_12_3.executor": "Run",
+    "Python.tests_12_4.executor": "Run",
     "Python.ьщвгду_8_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -130,51 +131,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests_12_3">
-    <configuration name="introspection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/introspection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="module_5_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="module_2_3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for tests_12_4.RunnerTest.test_walk">
     <configuration name="tests_12_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
@@ -197,7 +154,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in tests_12_1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="tests_12_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_12_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests_12_4.RunnerTest.test_walk" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="module_2_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,8 +187,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests_12_1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests_12_4.RunnerTest.test_walk&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests_12_4.TournamentTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="module_2_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_12_4.TournamentTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in tests_12_2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -229,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in tests_12_2.py" />
+        <item itemvalue="Python tests.Python tests for tests_12_4.RunnerTest.test_walk" />
+        <item itemvalue="Python tests.Python tests for tests_12_4.TournamentTest" />
+        <item itemvalue="Python.tests_12_4" />
         <item itemvalue="Python.tests_12_3" />
-        <item itemvalue="Python tests.Python tests in tests_12_1.py" />
-        <item itemvalue="Python.introspection" />
-        <item itemvalue="Python.module_5_1" />
+        <item itemvalue="Python tests.Python tests in tests_12_2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -252,14 +246,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720179788176</updated>
-    </task>
-    <task id="LOCAL-00060" summary="module_7_1">
-      <option name="closed" value="true" />
-      <created>1724519488304</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1724519488304</updated>
     </task>
     <task id="LOCAL-00061" summary="module_7_1">
       <option name="closed" value="true" />
@@ -645,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730642167184</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="test_Suite_skip">
+      <option name="closed" value="true" />
+      <created>1730654337006</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1730654337006</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -672,7 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="module_7_1" />
     <MESSAGE value="module_7_2" />
     <MESSAGE value="module6hard" />
     <MESSAGE value="module_7_3" />
@@ -697,7 +690,8 @@
     <MESSAGE value="introspection" />
     <MESSAGE value="tests_12_1" />
     <MESSAGE value="TournamentTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="TournamentTest" />
+    <MESSAGE value="test_Suite_skip" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_Suite_skip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,6 +719,11 @@
           <url>file://$PROJECT_DIR$/module_9_7.py</url>
           <line>8</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests_12_4.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
