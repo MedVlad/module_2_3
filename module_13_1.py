@@ -1,6 +1,5 @@
 import asyncio
-import time
-from time import sleep
+
 
 
 async def start_strongman(name, power):
