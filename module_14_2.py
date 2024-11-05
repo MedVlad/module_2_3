@@ -27,6 +27,22 @@ data = (60,)
 cursor.execute("SELECT username,email,age,balance FROM Users WHERE age <> ? ", data)
 users = cursor.fetchall()
 
+data = (6,)
+cursor.execute("DELETE FROM Users WHERE id = ? ", data)
+
+cursor.execute("SELECT COUNT(username) FROM Users ")
+UserCount = cursor.fetchone()[0]
+
+cursor.execute("SELECT SUM(balance) FROM Users ")
+SumBalance = cursor.fetchone()[0]
+
+cursor.execute("SELECT AVG(balance) FROM Users ")
+AvgBalance = cursor.fetchone()[0]
+
+print(SumBalance/UserCount)
+print(AvgBalance)
+
+
 for user in users:
     print(f"Имя:{user[0]}|Почта:{user[1]}|Возраст:{user[2]}|Баланс:{user[3]}")
 
