@@ -13,6 +13,7 @@ balance INTEGER NOT NULL
 )
 """)
 l = []
+
 for i in range(1, 11):
     l.append(i)
     data = (f"User{i}", f"example{i}@gmail.com", i * 10, 1000)
@@ -24,6 +25,7 @@ for i in l[::3]:
     data = (f"User{i}",)
     cursor.execute("DELETE FROM Users WHERE username = ? ", data)
 data = (60,)
+
 cursor.execute("SELECT username,email,age,balance FROM Users WHERE age <> ? ", data)
 users = cursor.fetchall()
 
