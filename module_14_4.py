@@ -4,10 +4,13 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from crud_functions import *
 
 import asyncio
 
-api = ''
+initiate_db()
+
+api = '7368163380:AAFXPIDqjR64Vw62Fq4GqsbOSPZgR7o6v_0'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
@@ -36,11 +39,13 @@ kb.add(buy_button)
 
 @dp.message_handler(text='Купить')
 async def get_buying_list(message):
-    for i in range(1, 5):
-        await message.answer(f'Название: Product{i} | Описание: описание {i} | Цена: {i * 100}')
-        with open(f'Vitamin{i}.png', 'rb') as img:
-            await  message.answer_photo(img, f"Продукт{i}")
-
+    products = get_all_products()
+    j = 1
+    for product in products:
+        await message.answer(f'Название: {product[1]} | Описание: {product[2]} | Цена: {product[3]}')
+        with open(f'Vitamin{j}.png', 'rb') as img:
+            await  message.answer_photo(img, f"Продукт{j}")
+            j += 1
 
     await message.answer('Выберите продукт для покупки:', reply_markup=ikb_buy)
 
