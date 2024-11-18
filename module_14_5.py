@@ -10,7 +10,7 @@ import asyncio
 
 initiate_db()
 
-api = ''
+api = '7368163380:AAFXPIDqjR64Vw62Fq4GqsbOSPZgR7o6v_0'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
@@ -132,10 +132,15 @@ async def set_age(call):
 
 @dp.message_handler(state=UserState.age)
 async def set_growth(message: types.Message, state: FSMContext):
+
     if message.text.isdigit():
-        await state.update_data(age=int(message.text))
+        await state.update_data(
+            age=int(message.text)
+        
+        )
         await message.answer('Введите свой рост (см):')
         await UserState.growth.set()
+
     else:
         await message.answer('Пожалуйста, введите корректный возраст (число).')
 
@@ -153,7 +158,10 @@ async def set_weight(message: types.Message, state: FSMContext):
 @dp.message_handler(state=UserState.weight)
 async def send_calories(message: types.Message, state: FSMContext):
     if message.text.isdigit():
-        await state.update_data(weight=int(message.text))
+        await state.update_data(
+            weight=int(message.text)
+
+        )
         data = await state.get_data()
 
         calories = 10 * data['weight'] + 6.25 * data['growth'] - 5 * data['age'] + 5
